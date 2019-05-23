@@ -1,4 +1,4 @@
-if (screen.availWidth < 1359) {
+if (screen.width < 1359) {
 /* Индекс слайда по умолчанию */
 var slideIndex = 1;
 showSlides(slideIndex);
