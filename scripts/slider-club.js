@@ -35,7 +35,7 @@ function showSlides2(m) {
     }
 
     slidess[slideI - 1].style.display = "block";
-};
+}
 } else {
     /* Индекс слайда по умолчанию */
     var slideI = 1;
@@ -97,5 +97,5 @@ function showSlides2(m) {
 
         slides[slideI - 1].style.display = "block";
         dots[slideI - 1].className += " club-slider-button-active";
-    };
+    }
 }

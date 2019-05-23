@@ -35,7 +35,7 @@ function showSlides(n) {
     }
 
     slides[slideIndex - 1].style.display = "block";
-};
+}
 }   else {
     /* Индекс слайда по умолчанию */
     /* Индекс слайда по умолчанию */
@@ -76,5 +76,5 @@ function showSlides(n) {
         }
         slides[slideIndex - 1].style.display = "flex";
         dots[slideIndex - 1].className += " feedback-button-active";
-    };
+    }
 }
