@@ -168,11 +168,13 @@ button{
 	}
 }
 
+@media (min-width: 320px) {
 .container {
 	max-width: 280px;
 	margin: 0 auto;
 	-webkit-box-sizing: border-box;
 	        box-sizing: border-box;
+}
 }
 
 @media (min-width: 768px) {
@@ -2166,7 +2168,7 @@ button{
 
 
 
-
+@media (min-width: 320px) {
 .club-slider{
 	background: url("img/clever-bg-desk.jpg");
 	padding-bottom: 515px;
@@ -2315,6 +2317,7 @@ button{
 @keyframes club-text-slider {
 	0% {-webkit-transform:scale(0.7);transform:scale(0.7)}
 	100% {-webkit-transform:scale(1);transform:scale(1)}
+}
 }
 
 @media (min-width: 768px) {
