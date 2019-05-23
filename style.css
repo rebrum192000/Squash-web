@@ -143,7 +143,8 @@ button{
 	background-image: 
 	linear-gradient( to top, rgb(246,156,0) 0%, rgb(255,192,0) 100%);
 	border: none;
-	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	        border-radius: 5px;
 	border: 2px solid #ffbe00;
 	-webkit-box-shadow: 0px 6px 12.22px 0.78px rgba(202, 202, 202, 0.42);
 	        box-shadow: 0px 6px 12.22px 0.78px rgba(202, 202, 202, 0.42);
@@ -196,12 +197,15 @@ button{
 .page-header--nav {
 	display: -webkit-box;
 	display: -ms-flexbox;
+	display: -webkit-flex;
 	display: flex;
 	-webkit-box-pack: justify;
 	    -ms-flex-pack: justify;
+	        -webkit-justify-content: space-between;
 	        justify-content: space-between;
 	-webkit-box-align: center;
 	    -ms-flex-align: center;
+	        -webkit-align-items: center;
 	        align-items: center;
 	padding: 18px 11px;
 }
@@ -230,7 +234,8 @@ button{
 	        box-sizing: border-box;
 	width: 46px;
 	height: 46px;
-	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	        border-radius: 50%;
 	-webkit-box-shadow: 0 0 8px 1px rgba(240, 240, 240, 0.81);
 	        box-shadow: 0 0 8px 1px rgba(240, 240, 240, 0.81);
 	border: 1px solid #e8e8e8;
@@ -265,7 +270,8 @@ button{
 		width: auto;
 		height: auto;
 		border: none;
-		border-radius: 0;
+		-webkit-border-radius: 0;
+		        border-radius: 0;
 		-webkit-box-shadow: none;
 		        box-shadow: none;
 		background: none;
@@ -381,9 +387,11 @@ button{
 .first--wrap-watch {
 	display: -webkit-box;
 	display: -ms-flexbox;
+	display: -webkit-flex;
 	display: flex;
 	-webkit-box-align: end;
 	    -ms-flex-align: end;
+	        -webkit-align-items: flex-end;
 	        align-items: flex-end;
 	padding-left: 103px;
 	height: 127px;
@@ -392,7 +400,8 @@ button{
 	display: block;
 	width: 75px;
 	height: 75px;
-	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	        border-radius: 50%;
 	border: none;
 	background-color: transparent;
 	background-image: url("img/1-first/play-btn.png");
@@ -463,12 +472,15 @@ button{
 	.first--container {
 		display: -webkit-box;
 		display: -ms-flexbox;
+		display: -webkit-flex;
 		display: flex;
 		-webkit-box-pack: justify;
 		    -ms-flex-pack: justify;
+		        -webkit-justify-content: space-between;
 		        justify-content: space-between;
 		-webkit-box-align: end;
 		    -ms-flex-align: end;
+		        -webkit-align-items: flex-end;
 		        align-items: flex-end;
 	}
 	.first--wrap-left {
@@ -504,19 +516,23 @@ button{
 @media (min-width: 1360px) {
 	.first {
 		background-image: url("img/1-first/bg-1.png");
-		background-size: cover;
+		-webkit-background-size: cover;
+		        background-size: cover;
 		background-repeat: no-repeat;
 		background-position: center -111px;
 	}
 	.first--container {
 		display: -webkit-box;
 		display: -ms-flexbox;
+		display: -webkit-flex;
 		display: flex;
 		-webkit-box-pack: justify;
 		    -ms-flex-pack: justify;
+		        -webkit-justify-content: space-between;
 		        justify-content: space-between;
 		-webkit-box-align: center;
 		    -ms-flex-align: center;
+		        -webkit-align-items: center;
 		        align-items: center;
 	}
 	.first--wrap-left {
@@ -620,11 +636,14 @@ button{
 	.plus--list {
 		display: -webkit-box;
 		display: -ms-flexbox;
+		display: -webkit-flex;
 		display: flex;
 		-ms-flex-pack: distribute;
-		    justify-content: space-around;
+		    -webkit-justify-content: space-around;
+		        justify-content: space-around;
 		-ms-flex-wrap: wrap;
-		    flex-wrap: wrap;
+		    -webkit-flex-wrap: wrap;
+		        flex-wrap: wrap;
 	}
 	.plus--item {
 		width: 27%;
@@ -651,12 +670,15 @@ button{
 	.plus--list {
 		display: -webkit-box;
 		display: -ms-flexbox;
+		display: -webkit-flex;
 		display: flex;
 		-webkit-box-pack: start;
 		    -ms-flex-pack: start;
+		        -webkit-justify-content: flex-start;
 		        justify-content: flex-start;
 		-ms-flex-wrap: nowrap;
-		    flex-wrap: nowrap;
+		    -webkit-flex-wrap: nowrap;
+		        flex-wrap: nowrap;
 		text-align: left;
 	}
 	.plus--item {
@@ -693,7 +715,8 @@ button{
 .what {
 	border-top: 12px solid #ffbf25;
 	border-bottom: 13px solid #ffbf25;
-	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	        border-radius: 5px;
 	color: #ffffff;
 	background-color: #0a1f3f;
 	background-image: url("img/3-what/bg-3-mob.jpg");
@@ -732,7 +755,8 @@ button{
 		background-image: url("img/3-what/bg-3.jpg");
 		background-repeat: no-repeat;
 		background-position: center;
-		background-size: cover;
+		-webkit-background-size: cover;
+		        background-size: cover;
 	}
 	.what--title,
 	.what--desc,
@@ -748,7 +772,8 @@ button{
 		border-top: 14px solid #ffbf25;
 		border-bottom: 19px solid #ffbf25;
 		background-position: center;
-		background-size: cover;
+		-webkit-background-size: cover;
+		        background-size: cover;
 	}
 	.what--title,
 	.what--desc,
@@ -805,7 +830,8 @@ button{
 	width: 119px;
 	height: 89px;
 	background: url("img/clever-ap.png") no-repeat;
-	background-size: contain;
+	-webkit-background-size: contain;
+	        background-size: contain;
 }
 }
 @media (min-width: 768px) {
@@ -822,7 +848,8 @@ button{
 @media (min-width: 1360px) {
 	.quot{
 		padding-top: 145px;
-		background-size: cover;
+		-webkit-background-size: cover;
+		        background-size: cover;
 	}
 	.quot--text{
 		font-size: 30px;
@@ -837,7 +864,8 @@ button{
 		width: 209px;
 		height: 162px;
 		background: url("img/clever-ap.png") no-repeat;
-		background-size: contain;
+		-webkit-background-size: contain;
+		        background-size: contain;
 	}
 }
 
@@ -924,7 +952,8 @@ button{
 
 	border: 3px solid #ffb225;
 	border-right: none;
-	border-radius: 5px 0 0 5px;
+	-webkit-border-radius: 5px 0 0 5px;
+	        border-radius: 5px 0 0 5px;
 	padding: 14px;
 }
 .stress--quot-title {
@@ -974,7 +1003,8 @@ button{
 @media (min-width: 325px) {
 	.stress--quot-wrap {
 		border-right: 3px solid #ffb225;
-		border-radius: 5px;
+		-webkit-border-radius: 5px;
+		        border-radius: 5px;
 	}
 }
 @media (min-width: 768px) {
@@ -1046,7 +1076,8 @@ button{
 		width: 422px;
 		padding: 34px 55px 30px 65px;
 		border: none;
-		border-radius: 5px;
+		-webkit-border-radius: 5px;
+		        border-radius: 5px;
 		background-image:
 		-webkit-gradient( linear, left bottom, left top, from(rgb(240,240,240)), color-stop(65%, rgb(248,248,248)), to(rgb(255,255,255)));
 		background-image:
@@ -1063,7 +1094,8 @@ button{
 		content: "";
 		top: -20px;
 		left: 1px;
-		border-radius: 5px;
+		-webkit-border-radius: 5px;
+		        border-radius: 5px;
 		background-image: -webkit-gradient( linear, left bottom, left top, from(rgb(224,155,28)), to(rgb(255,191,37)));
 		background-image: -webkit-linear-gradient( bottom, rgb(224,155,28) 0%, rgb(255,191,37) 100%);
 		background-image: -o-linear-gradient( bottom, rgb(224,155,28) 0%, rgb(255,191,37) 100%);
@@ -1141,7 +1173,8 @@ button{
 
 	border: 1px solid #ffb225;
 	border-right: none;
-	border-radius: 5px 0 0 5px;
+	-webkit-border-radius: 5px 0 0 5px;
+	        border-radius: 5px 0 0 5px;
 	padding: 15px 18px 22px 18px;
 }
 .titanic--inf-img {
@@ -1156,7 +1189,8 @@ button{
 @media (min-width: 325px) {
 	.titanic--inf-wrap {
 		border-right: 1px solid #ffb225;
-		border-radius: 5px;
+		-webkit-border-radius: 5px;
+		        border-radius: 5px;
 	}
 }
 @media (min-width: 768px) {
@@ -1186,7 +1220,8 @@ button{
 		width: 360px;
 		height: auto;
 		display: block;
-		border-radius: 8px; 
+		-webkit-border-radius: 8px;
+		        border-radius: 8px; 
 	}
 	.titanic--inf-wrap {
 		position: static;
@@ -1221,14 +1256,17 @@ button{
 		right: calc(50% - 564px);
 		width: 554px;
 		height: 478px;
-		border-radius: 10px;
+		-webkit-border-radius: 10px;
+		        border-radius: 10px;
 	}
 	.titanic--inf-wrap {
 		display: -webkit-box;
 		display: -ms-flexbox;
+		display: -webkit-flex;
 		display: flex;
 		-webkit-box-align: center;
 		    -ms-flex-align: center;
+		        -webkit-align-items: center;
 		        align-items: center;
 		margin-left: calc(50% - 572px);
 		width: 453px;
@@ -1274,7 +1312,8 @@ button{
 @media (min-width: 1360px) {
 	.quot-Y {
 		background-image: url("img/cite-bg-desk.png");
-		background-size: cover;
+		-webkit-background-size: cover;
+		        background-size: cover;
 	}
 	.quot-Y--title {
 		font-weight: normal;
@@ -1308,7 +1347,8 @@ button{
 }
 .forbes--block-img {
 	display: block;
-	border-radius: 5px 5px 0 0;
+	-webkit-border-radius: 5px 5px 0 0;
+	        border-radius: 5px 5px 0 0;
 }
 .forbes--block-wrap {
 	position: relative;
@@ -1316,7 +1356,8 @@ button{
 	        box-sizing: border-box;
 	width: 280px;
 	padding: 31px 27px 10px 18px;
-	border-radius: 0 0 5px 5px;
+	-webkit-border-radius: 0 0 5px 5px;
+	        border-radius: 0 0 5px 5px;
 	background-image: -webkit-gradient( linear, left bottom, left top, from(rgb(240,240,240)), color-stop(65%, rgb(248,248,248)), to(rgb(255,255,255)));
 	background-image: -webkit-linear-gradient( bottom, rgb(240,240,240) 0%, rgb(248,248,248) 65%, rgb(255,255,255) 100%);
 	background-image: -o-linear-gradient( bottom, rgb(240,240,240) 0%, rgb(248,248,248) 65%, rgb(255,255,255) 100%);
@@ -1329,7 +1370,8 @@ button{
 	left: 0;
 	width: 100%;
 	height: 13px;
-	border-radius: 5px 5px 0 0;
+	-webkit-border-radius: 5px 5px 0 0;
+	        border-radius: 5px 5px 0 0;
 	background-image: -webkit-gradient( linear, left bottom, left top, from(rgb(247,182,35)), to(rgb(255,191,37)));
 	background-image: -webkit-linear-gradient( bottom, rgb(247,182,35) 0%, rgb(255,191,37) 100%);
 	background-image: -o-linear-gradient( bottom, rgb(247,182,35) 0%, rgb(255,191,37) 100%);
@@ -1374,7 +1416,8 @@ button{
 	margin-bottom: 15px;
 	padding: 5px 0;
 	border: 1px solid rgb(255, 178, 37);
-	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	        border-radius: 5px;
 	background-image: -webkit-gradient( linear, left bottom, left top, from(rgb(224,155,28)), to(rgb(255,191,37)));
 	background-image: -webkit-linear-gradient( bottom, rgb(224,155,28) 0%, rgb(255,191,37) 100%);
 	background-image: -o-linear-gradient( bottom, rgb(224,155,28) 0%, rgb(255,191,37) 100%);
@@ -1385,11 +1428,14 @@ button{
 	.forbes--container {
 		display: -webkit-box;
 		display: -ms-flexbox;
+		display: -webkit-flex;
 		display: flex;
 		-ms-flex-pack: distribute;
-		    justify-content: space-around;
+		    -webkit-justify-content: space-around;
+		        justify-content: space-around;
 		-ms-flex-wrap: wrap;
-		    flex-wrap: wrap;
+		    -webkit-flex-wrap: wrap;
+		        flex-wrap: wrap;
 	}
 	.forbes--title {
 		display: block;
@@ -1429,11 +1475,13 @@ button{
 	.forbes--block-img {
 		margin-left: 0;
 		margin-bottom: 24px;
-		border-radius: 5px;
+		-webkit-border-radius: 5px;
+		        border-radius: 5px;
 	}
 	.forbes--block-wrap {
 		width: 528px;
-		border-radius: 5px;
+		-webkit-border-radius: 5px;
+		        border-radius: 5px;
 		margin-left: 0;
 		padding: 23px 45px 10px 49px;
 		-webkit-box-shadow: 0px 12px 25.65px 1.35px rgba(180, 180, 180, 0.33);
@@ -1480,7 +1528,8 @@ button{
 		margin-bottom: 15px;
 		padding: 7px 0;
 		border: 1px solid rgb(255, 178, 37);
-		border-radius: 5px;
+		-webkit-border-radius: 5px;
+		        border-radius: 5px;
 		background-image: -webkit-gradient( linear, left bottom, left top, from(rgb(224,155,28)), to(rgb(255,191,37)));
 		background-image: -webkit-linear-gradient( bottom, rgb(224,155,28) 0%, rgb(255,191,37) 100%);
 		background-image: -o-linear-gradient( bottom, rgb(224,155,28) 0%, rgb(255,191,37) 100%);
@@ -1640,7 +1689,8 @@ button{
     -webkit-transform: translate(-50%, 0);
         -ms-transform: translate(-50%, 0);
             transform: translate(-50%, 0);
-    background-size: contain;
+    -webkit-background-size: contain;
+            background-size: contain;
 }
 .working::before{
 	position: absolute;
@@ -1695,7 +1745,8 @@ button{
 	width: 28px;
 	height: 28px;
 	background: url("img/list-form-bg.png");
-	background-size: contain;
+	-webkit-background-size: contain;
+	        background-size: contain;
 }
 }
 
@@ -1720,7 +1771,8 @@ button{
 @media (min-width: 1360px){
 	.working{
 		background: url("img/11-working/working-bg-desk.png") no-repeat 50% -10%;
-	background-size: cover;
+	-webkit-background-size: cover;
+	        background-size: cover;
 	}
 	.working__head{
 		font-size: 34px;
@@ -1873,7 +1925,8 @@ button{
 @media (min-width: 320px) {
 .links{
 	background: url("img/13-links/links-man-bg.jpg") no-repeat 48% 0;
-	background-size: auto 100%;
+	-webkit-background-size: auto 100%;
+	        background-size: auto 100%;
 	width: 100%;
 }
 .links__nobg{
@@ -1903,7 +1956,8 @@ button{
     bottom: 35px;
     right: -20px;
 	border: 1px solid #ffb300;
-	border-radius: 10px 0 0 10px;
+	-webkit-border-radius: 10px 0 0 10px;
+	        border-radius: 10px 0 0 10px;
 	border-right: none;
 }
 .links__invite-text::before{
@@ -1914,7 +1968,8 @@ button{
 	width: 64px;
 	height: 66px;
 	background: url("img/13-links/links-man-btn.jpg.png") no-repeat;
-	background-size: contain;
+	-webkit-background-size: contain;
+	        background-size: contain;
 }
 .links__invite-text{
 	position: relative;
@@ -1931,7 +1986,8 @@ button{
 @media (min-width: 325px) {
 	.links__invite {
 		border-right: 1px solid #ffb225;
-		border-radius: 10px;
+		-webkit-border-radius: 10px;
+		        border-radius: 10px;
 	}
 }
 
@@ -1939,7 +1995,8 @@ button{
 @media (min-width: 768px) {
 	.links{
 		background: url("img/13-links/links-man-bg.jpg") no-repeat 43% 0;
-		background-size: cover;
+		-webkit-background-size: cover;
+		        background-size: cover;
 	}
 }
 
@@ -1948,7 +2005,8 @@ button{
 
 	.links{
 		background: url("img/13-links/links-man-bg.jpg") no-repeat 43% 0;
-		background-size: cover;
+		-webkit-background-size: cover;
+		        background-size: cover;
 	}
 	.links__nobg{
 		position: relative;
@@ -1988,7 +2046,8 @@ button{
 		width: 64px;
 		height: 66px;
 		background: url("img/13-links/links-man-btn.jpg.png") no-repeat;
-		background-size: contain;
+		-webkit-background-size: contain;
+		        background-size: contain;
 	}
 	.links__invite-text{
 		position: relative;
@@ -2025,7 +2084,8 @@ button{
 	width: 119px;
 	height: 89px;
 	background: url("img/clever-ap.png") no-repeat;
-	background-size: contain;
+	-webkit-background-size: contain;
+	        background-size: contain;
 }
 }
 
@@ -2046,7 +2106,8 @@ button{
 		width: 119px;
 		height: 89px;
 		background: url("img/clever-ap.png") no-repeat;
-		background-size: contain;
+		-webkit-background-size: contain;
+		        background-size: contain;
 }
 }
 
@@ -2073,7 +2134,8 @@ button{
 		width: 209px;
 		height: 162px;
 		background: url("img/clever-ap.png") no-repeat;
-		background-size: contain;
+		-webkit-background-size: contain;
+		        background-size: contain;
 	}
 }
 
@@ -2229,7 +2291,8 @@ button{
 		        transform: translate(-50%, 0);
 		width: 320px;
 		height: 514px;
-		background-size: contain;
+		-webkit-background-size: contain;
+		        background-size: contain;
 
 	}
 	.club-slider-arrow1{
@@ -2251,7 +2314,8 @@ button{
 		border: none;
 		-webkit-box-sizing: border-box;
 		        box-sizing: border-box;
-		border-radius: 50%;
+		-webkit-border-radius: 50%;
+		        border-radius: 50%;
 		width: 51px;
 		height: 51px;
 		-webkit-box-shadow: 0px 6px 12.22px 0.78px rgba(202, 202, 202, 0.42);
@@ -2276,7 +2340,8 @@ button{
 		border: none;
 		-webkit-box-sizing: border-box;
 		        box-sizing: border-box;
-		border-radius: 50%;
+		-webkit-border-radius: 50%;
+		        border-radius: 50%;
 		width: 51px;
 		height: 51px;
 		-webkit-box-shadow: 0px 6px 12.22px 0.78px rgba(202, 202, 202, 0.42);
@@ -2315,7 +2380,8 @@ button{
 		background-image: -o-linear-gradient( left, rgb(246,156,0) 0%, rgb(255,192,0) 100%);
 
 		background-image: linear-gradient( 90deg, rgb(246,156,0) 0%, rgb(255,192,0) 100%);
-		border-radius: 5px;
+		-webkit-border-radius: 5px;
+		        border-radius: 5px;
 	}
 	.club-slider__text-info {
 		-webkit-animation: club-text-slider ease 0.75s;
@@ -2368,7 +2434,8 @@ button{
 		        transform: translate(-50%, 0);
 		width: 500px;
 		height: 514px;
-		background-size: contain;
+		-webkit-background-size: contain;
+		        background-size: contain;
 		-webkit-transition: 0.5s;
 		-o-transition: 0.5s;
 		transition: 0.5s;
@@ -2405,7 +2472,8 @@ button{
 		background-image: -webkit-linear-gradient( left, rgb(246,156,0) 0%, rgb(255,192,0) 100%);
 		background-image: -o-linear-gradient( left, rgb(246,156,0) 0%, rgb(255,192,0) 100%);
 		background-image: linear-gradient( 90deg, rgb(246,156,0) 0%, rgb(255,192,0) 100%);
-		border-radius: 5px;
+		-webkit-border-radius: 5px;
+		        border-radius: 5px;
 	}
 }
 
@@ -2445,8 +2513,10 @@ button{
 		        transform: translate(-50%, 0);
 		width: 825px;
 		height: 748px;
-		background-size: contain;
-		border-radius: 5px;
+		-webkit-background-size: contain;
+		        background-size: contain;
+		-webkit-border-radius: 5px;
+		        border-radius: 5px;
 		-webkit-box-shadow: 0px 6px 25.65px 1.35px rgba(132, 132, 132, 0.44);
 		        box-shadow: 0px 6px 25.65px 1.35px rgba(132, 132, 132, 0.44);
 	}
@@ -2477,7 +2547,8 @@ button{
 		background-image: -webkit-linear-gradient( left, rgb(246,156,0) 0%, rgb(255,192,0) 100%);
 		background-image: -o-linear-gradient( left, rgb(246,156,0) 0%, rgb(255,192,0) 100%);
 		background-image: linear-gradient( 90deg, rgb(246,156,0) 0%, rgb(255,192,0) 100%);
-		border-radius: 5px;
+		-webkit-border-radius: 5px;
+		        border-radius: 5px;
 	}
 	.club-slider__buttons{
 		position: absolute;
@@ -2494,7 +2565,8 @@ button{
 		        box-sizing: border-box;
 		width: 12px;
 		height: 12px;
-		border-radius: 50%;
+		-webkit-border-radius: 50%;
+		        border-radius: 50%;
 		border: 2px solid rgb(255, 179, 0);
 		background-color: transparent;
 		margin-right: 15px;
@@ -2543,7 +2615,8 @@ button{
 		border: none;
 		-webkit-box-sizing: border-box;
 		        box-sizing: border-box;
-		border-radius: 50%;
+		-webkit-border-radius: 50%;
+		        border-radius: 50%;
 		width: 51px;
 		height: 51px;
 		-webkit-box-shadow: 0px 6px 12.22px 0.78px rgba(202, 202, 202, 0.42);
@@ -2567,7 +2640,8 @@ button{
 		border: none;
 		-webkit-box-sizing: border-box;
 		        box-sizing: border-box;
-		border-radius: 50%;
+		-webkit-border-radius: 50%;
+		        border-radius: 50%;
 		width: 51px;
 		height: 51px;
 		-webkit-box-shadow: 0px 6px 12.22px 0.78px rgba(202, 202, 202, 0.42);
@@ -2627,7 +2701,8 @@ button{
 		padding-right: 20px;
 		background-color: #fff;
 		border: 1px solid #cdcdcd;  
-		border-radius: 5px;
+		-webkit-border-radius: 5px;  
+		        border-radius: 5px;
 		-webkit-box-shadow: 0px 12px 25.65px 1.35px rgba(181, 181, 181, 0.2);
 		        box-shadow: 0px 12px 25.65px 1.35px rgba(181, 181, 181, 0.2);
 	}
@@ -2668,17 +2743,21 @@ button{
 	.feedback__item-pair{
 		display: -webkit-box;
 		display: -ms-flexbox;
+		display: -webkit-flex;
 		display: flex;
 		-ms-flex-preferred-size: 720px;
-		    flex-basis: 720px;
+		    -webkit-flex-basis: 720px;
+		        flex-basis: 720px;
 		-webkit-box-pack: justify;
 		    -ms-flex-pack: justify;
+		        -webkit-justify-content: space-between;
 		        justify-content: space-between;
 	}
 	.feedback__item{
 		position: relative;
 		-ms-flex-preferred-size: 350px;
-		    flex-basis: 350px;
+		    -webkit-flex-basis: 350px;
+		        flex-basis: 350px;
 		margin-right: 10px;
 	}	
 	.feedback__nobg{
@@ -2693,17 +2772,21 @@ button{
 	.feedback__item-pair{
 		display: -webkit-box;
 		display: -ms-flexbox;
+		display: -webkit-flex;
 		display: flex;
 		-ms-flex-preferred-size: 934px;
-		    flex-basis: 934px;
+		    -webkit-flex-basis: 934px;
+		        flex-basis: 934px;
 		-webkit-box-pack: end;
 		    -ms-flex-pack: end;
+		        -webkit-justify-content: flex-end;
 		        justify-content: flex-end;
 	}
 	.feedback__item{
 		position: relative;
 		-ms-flex-preferred-size: 440px;
-		    flex-basis: 440px;
+		    -webkit-flex-basis: 440px;
+		        flex-basis: 440px;
 		margin-right: 31px;
 	}	
 	.feedback{
@@ -2754,7 +2837,8 @@ button{
 		border: none;
 		-webkit-box-sizing: border-box;
 		        box-sizing: border-box;
-		border-radius: 50%;
+		-webkit-border-radius: 50%;
+		        border-radius: 50%;
 		width: 51px;
 		height: 51px;
 		-webkit-box-shadow: 0px 6px 12.22px 0.78px rgba(202, 202, 202, 0.42);
@@ -2778,7 +2862,8 @@ button{
 		border: none;
 		-webkit-box-sizing: border-box;
 		        box-sizing: border-box;
-		border-radius: 50%;
+		-webkit-border-radius: 50%;
+		        border-radius: 50%;
 		width: 51px;
 		height: 51px;
 		-webkit-box-shadow: 0px 6px 12.22px 0.78px rgba(202, 202, 202, 0.42);
@@ -2824,7 +2909,8 @@ button{
 		padding-right: 20px;
 		background-color: #fff;
 		border: 1px solid #cdcdcd;  
-		border-radius: 5px;
+		-webkit-border-radius: 5px;  
+		        border-radius: 5px;
 		-webkit-box-shadow: 0px 12px 25.65px 1.35px rgba(181, 181, 181, 0.2);
 		        box-shadow: 0px 12px 25.65px 1.35px rgba(181, 181, 181, 0.2);
 	}
@@ -2867,7 +2953,8 @@ button{
 		        box-sizing: border-box;
 		width: 12px;
 		height: 12px;
-		border-radius: 50%;
+		-webkit-border-radius: 50%;
+		        border-radius: 50%;
 		border: 2px solid rgb(255, 179, 0);
 		background-color: transparent;
 		margin-right: 15px;
@@ -2976,7 +3063,8 @@ button{
 	width: 40px;
 	height: 38px;
 	background: url("img/item1-form-bg.png") no-repeat;
-	background-size: contain;
+	-webkit-background-size: contain;
+	        background-size: contain;
 }
 .first-train__item:nth-of-type(2)::before{
 	position: absolute;
@@ -2986,7 +3074,8 @@ button{
 	width: 41px;
 	height: 46px;
 	background: url("img/item2-form-bg.png") no-repeat;
-	background-size: contain;
+	-webkit-background-size: contain;
+	        background-size: contain;
 }
 }
 
@@ -2996,15 +3085,18 @@ button{
 		background: url("img/form-desk-bg.jpg") no-repeat;
 		/* height: 958px; */
 		padding-top: 0;
-		background-size: cover;
+		-webkit-background-size: cover;
+		        background-size: cover;
 		
 	}
 	.first-train__desk-flex{
 		display: -webkit-box;
 		display: -ms-flexbox;
+		display: -webkit-flex;
 		display: flex;
 		-webkit-box-pack: justify;
 		    -ms-flex-pack: justify;
+		        -webkit-justify-content: space-between;
 		        justify-content: space-between;
 		width: 720px;
 		margin: 0 auto;
@@ -3013,7 +3105,8 @@ button{
 	.first-train__info{
 		background: none;
 		-ms-flex-preferred-size: 400px;
-		    flex-basis: 400px;
+		    -webkit-flex-basis: 400px;
+		        flex-basis: 400px;
 	}
 
 	.first-train__invite{
@@ -3103,7 +3196,8 @@ button{
 		width: 40px;
 		height: 38px;
 		background: url("img/item1-form-bg.png") no-repeat;
-		background-size: contain;
+		-webkit-background-size: contain;
+		        background-size: contain;
 	}
 	.first-train__item:nth-of-type(2)::before{
 		position: absolute;
@@ -3113,7 +3207,8 @@ button{
 		width: 41px;
 		height: 46px;
 		background: url("img/item2-form-bg.png") no-repeat;
-		background-size: contain;
+		-webkit-background-size: contain;
+		        background-size: contain;
 	}
 }
 
@@ -3125,15 +3220,18 @@ button{
 		background-position-y: bottom;
 		/* height: 958px; */
 		padding-top: 94px;
-		background-size: cover;
+		-webkit-background-size: cover;
+		        background-size: cover;
 		
 	}
 	.first-train__desk-flex{
 		display: -webkit-box;
 		display: -ms-flexbox;
+		display: -webkit-flex;
 		display: flex;
 		-webkit-box-pack: justify;
 		    -ms-flex-pack: justify;
+		        -webkit-justify-content: space-between;
 		        justify-content: space-between;
 		width: 1170px;
 		margin: 0 auto;
@@ -3142,7 +3240,8 @@ button{
 	.first-train__info{
 		background: none;
 		-ms-flex-preferred-size: 565px;
-		    flex-basis: 565px;
+		    -webkit-flex-basis: 565px;
+		        flex-basis: 565px;
 	}
 
 	.first-train__invite{
@@ -3215,6 +3314,7 @@ button{
 	.first-train__list{
 		display: -webkit-box;
 		display: -ms-flexbox;
+		display: -webkit-flex;
 		display: flex;
 		font-size: 20px;
 		line-height: 24px;
@@ -3246,7 +3346,8 @@ button{
 		width: 63px;
 		height: 57px;
 		background: url("img/item1-form-bg.png") no-repeat;
-		background-size: auto;
+		-webkit-background-size: auto auto;
+		        background-size: auto;
 	}
 	.first-train__item:nth-of-type(2)::before{
 		position: absolute;
@@ -3256,7 +3357,8 @@ button{
 		width: 69px;
 		height: 80px;
 		background: url("img/item2-form-bg.png") no-repeat;
-		background-size: auto;
+		-webkit-background-size: auto auto;
+		        background-size: auto;
 	}
 }
 
@@ -3266,7 +3368,8 @@ button{
 @media (min-width: 320px) {
 .first-train__form-bg{
 	background: url("img/form-bg.jpg");
-	background-size: cover;
+	-webkit-background-size: cover;
+	        background-size: cover;
 	padding-top: 67px;
 	padding-bottom: 106px;
 	position: relative;
@@ -3294,7 +3397,8 @@ button{
 	0px 0px 17.1px 0.9px rgba(102, 102, 102, 0.4);
 	        box-shadow: 0 0 0 5px #fff,
 	0px 0px 17.1px 0.9px rgba(102, 102, 102, 0.4);
-	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	        border-radius: 5px;
 	text-align: center;
 }
 
@@ -3325,7 +3429,8 @@ button{
 	font-family: "Gotham Pro Light";
 	border: none;
 	background-color: #fafafa;
-	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	        border-radius: 5px;
 	padding-left: 15px;
 	padding-right: 15px;
 	-webkit-box-shadow: inset 0px 0px 10px 0px rgba(172, 172, 172, 0.57);
@@ -3420,7 +3525,8 @@ button{
 		0px 0px 17.1px 0.9px rgba(102, 102, 102, 0.4);
 		        box-shadow: 0 0 0 5px #fff,
 		0px 0px 17.1px 0.9px rgba(102, 102, 102, 0.4);
-		border-radius: 5px;
+		-webkit-border-radius: 5px;
+		        border-radius: 5px;
 		text-align: center;
 	}
 
@@ -3451,7 +3557,8 @@ button{
 		font-family: "Gotham Pro Light";
 		border: none;
 		background-color: #fafafa;
-		border-radius: 5px;
+		-webkit-border-radius: 5px;
+		        border-radius: 5px;
 		padding-left: 15px;
 		padding-right: 15px;
 		-webkit-box-shadow: inset 0px 0px 10px 0px rgba(172, 172, 172, 0.57);
@@ -3527,7 +3634,8 @@ button{
 @media (min-width: 1360px) {
 	.first-train__form-bg{
 		-ms-flex-preferred-size: 607px;
-		    flex-basis: 607px;
+		    -webkit-flex-basis: 607px;
+		        flex-basis: 607px;
 		background: none;
 		padding-top: 89px;
 		padding-bottom: 181px;
@@ -3550,7 +3658,8 @@ button{
 		0px 0px 17.1px 0.9px rgba(102, 102, 102, 0.4);
 		        box-shadow: 0 0 0 5px #fff,
 		0px 0px 17.1px 0.9px rgba(102, 102, 102, 0.4);
-		border-radius: 5px;
+		-webkit-border-radius: 5px;
+		        border-radius: 5px;
 		text-align: center;
 		position: relative;
 	}
@@ -3583,7 +3692,8 @@ button{
 		font-family: "Gotham Pro Light";
 		border: none;
 		background-color: #fafafa;
-		border-radius: 5px;
+		-webkit-border-radius: 5px;
+		        border-radius: 5px;
 		padding-left: 25px;
 		padding-right: 15px;
 		-webkit-box-shadow: inset 0px 0px 10px 0px rgba(172, 172, 172, 0.57);
@@ -3665,12 +3775,15 @@ button{
 		width: 700px;
 		display: -webkit-box;
 		display: -ms-flexbox;
+		display: -webkit-flex;
 		display: flex;
 		-webkit-box-align: center;
 		    -ms-flex-align: center;
+		        -webkit-align-items: center;
 		        align-items: center;
 		-webkit-box-pack: justify;
 		    -ms-flex-pack: justify;
+		        -webkit-justify-content: space-between;
 		        justify-content: space-between;
 	}
 
@@ -3685,13 +3798,15 @@ button{
 		font-size: 20px;
 		line-height: 30px;
 		-ms-flex-preferred-size: 375px;
-		    flex-basis: 375px;
+		    -webkit-flex-basis: 375px;
+		        flex-basis: 375px;
 	}
 	.first-train__desk-tel{
 		font-size: 30px;
 		line-height: 50px;
 		-ms-flex-preferred-size: 265px;
-		    flex-basis: 265px;
+		    -webkit-flex-basis: 265px;
+		        flex-basis: 265px;
 	}
 }
 
@@ -3719,7 +3834,8 @@ button{
 	width: 119px;
 	height: 89px;
 	background: url("img/clever-ap.png") no-repeat;
-	background-size: contain;
+	-webkit-background-size: contain;
+	        background-size: contain;
 }
 .fit::before{
 	position: absolute;
@@ -3767,7 +3883,8 @@ button{
 		width: 119px;
 		height: 89px;
 		background: url("img/clever-ap.png") no-repeat;
-		background-size: contain;
+		-webkit-background-size: contain;
+		        background-size: contain;
 	}
 }
 
@@ -3794,7 +3911,8 @@ button{
 		width: 209px;
 		height: 162px;
 		background: url("img/clever-ap.png") no-repeat;
-		background-size: contain;
+		-webkit-background-size: contain;
+		        background-size: contain;
 	}
 	.fit__clever-sub{
 		font-size: 16px;
@@ -3868,14 +3986,17 @@ button{
 .sect10__mob-info{
 	display: -webkit-box;
 	display: -ms-flexbox;
+	display: -webkit-flex;
 	display: flex;
 	-ms-flex-wrap: wrap;
-	    flex-wrap: wrap;
+	    -webkit-flex-wrap: wrap;
+	        flex-wrap: wrap;
 	margin-top: 45px;
 }
 .sect10__tel{
 	-ms-flex-preferred-size: 280px;
-	    flex-basis: 280px;
+	    -webkit-flex-basis: 280px;
+	        flex-basis: 280px;
 	font-size: 28px;
 	line-height: 36px;
 	font-family: "Gotham Pro Bold";
@@ -3892,7 +4013,8 @@ button{
 
 .sect10__book{
 	-ms-flex-preferred-size: 280px;
-	    flex-basis: 280px;
+	    -webkit-flex-basis: 280px;
+	        flex-basis: 280px;
 	margin: 0 auto;
 	margin-bottom: 45px;
 }
@@ -3905,11 +4027,14 @@ button{
 	.sect10__mob-info{
 		display: -webkit-box;
 		display: -ms-flexbox;
+		display: -webkit-flex;
 		display: flex;
 		-ms-flex-wrap: nowrap;
-		    flex-wrap: nowrap;
+		    -webkit-flex-wrap: nowrap;
+		        flex-wrap: nowrap;
 		-webkit-box-pack: justify;
 		    -ms-flex-pack: justify;
+		        -webkit-justify-content: space-between;
 		        justify-content: space-between;
 		padding-bottom: 45px;
 
@@ -3917,7 +4042,8 @@ button{
 	}
 	.sect10__tel{
 		-ms-flex-preferred-size: 280px;
-		    flex-basis: 280px;
+		    -webkit-flex-basis: 280px;
+		        flex-basis: 280px;
 		font-size: 28px;
 		line-height: 36px;
 		font-family: "Gotham Pro Bold";
@@ -3927,11 +4053,13 @@ button{
 		text-align: center;
 		-ms-flex-item-align: center;
 		    -ms-grid-row-align: center;
-		    align-self: center;
+		    -webkit-align-self: center;
+		        align-self: center;
 	}
 	.sect10__book{
 		-ms-flex-preferred-size: 280px;
-		    flex-basis: 280px;
+		    -webkit-flex-basis: 280px;
+		        flex-basis: 280px;
 		margin: 0 auto;
 	}
 }
@@ -3940,31 +4068,39 @@ button{
 	.sect10__contacts{
 		display: -webkit-box;
 		display: -ms-flexbox;
+		display: -webkit-flex;
 		display: flex;
 		margin-top: 70px;
 		margin-bottom: 60px;
 		-webkit-box-pack: justify;
 		    -ms-flex-pack: justify;
+		        -webkit-justify-content: space-between;
 		        justify-content: space-between;
 	}
 	.sect10__desk-info{
 		display: -webkit-box;
 		display: -ms-flexbox;
+		display: -webkit-flex;
 		display: flex;
 		-ms-flex-preferred-size: 585px;
-		    flex-basis: 585px;
+		    -webkit-flex-basis: 585px;
+		        flex-basis: 585px;
 		-webkit-box-pack: justify;
 		    -ms-flex-pack: justify;
+		        -webkit-justify-content: space-between;
 		        justify-content: space-between;
 	}
 	.sect10__mob-info{
 		display: -webkit-box;
 		display: -ms-flexbox;
+		display: -webkit-flex;
 		display: flex;
 		-ms-flex-wrap: wrap;
-		    flex-wrap: wrap;
+		    -webkit-flex-wrap: wrap;
+		        flex-wrap: wrap;
 		-webkit-box-pack: end;
 		    -ms-flex-pack: end;
+		        -webkit-justify-content: flex-end;
 		        justify-content: flex-end;
 		margin-right: 15px;
 		padding-bottom: 0;
@@ -3972,7 +4108,8 @@ button{
 	}
 	.sect10__tel{
 		-ms-flex-preferred-size: 380px;
-		    flex-basis: 380px;
+		    -webkit-flex-basis: 380px;
+		        flex-basis: 380px;
 		font-size: 30px;
 		line-height: 50px;
 		text-align: right;
@@ -3980,7 +4117,8 @@ button{
 	}
 	.sect10__book{
 		-ms-flex-preferred-size: 380px;
-		    flex-basis: 380px;
+		    -webkit-flex-basis: 380px;
+		        flex-basis: 380px;
 		font-size: 16px;
 		margin: 0;
 	}
@@ -3988,7 +4126,8 @@ button{
 		font-size: 14px;
 		line-height: 24px;
 		-ms-flex-preferred-size: 256px;
-		    flex-basis: 256px;
+		    -webkit-flex-basis: 256px;
+		        flex-basis: 256px;
 	}
 } 
 
@@ -4004,11 +4143,13 @@ button{
 .page-footer__wrapper{
 	display: -webkit-box;
 	display: -ms-flexbox;
+	display: -webkit-flex;
 	display: flex;
 	font-size: 13px;
 	line-height: 18px;
 	-ms-flex-wrap: wrap;
-	    flex-wrap: wrap;
+	    -webkit-flex-wrap: wrap;
+	        flex-wrap: wrap;
 	text-align: center;
 }
 .page-footer__policy{
@@ -4043,6 +4184,7 @@ button{
 	.page-footer__wrapper{
 		-webkit-box-align: center;
 		    -ms-flex-align: center;
+		        -webkit-align-items: center;
 		        align-items: center;
 	}
 	.page-footer__policy{
@@ -4056,6 +4198,7 @@ button{
 		line-height: 24px;
 		-webkit-box-pack: justify;
 		    -ms-flex-pack: justify;
+		        -webkit-justify-content: space-between;
 		        justify-content: space-between;
 	}
 	.page-footer__policy{
@@ -4145,7 +4288,8 @@ button{
 		opacity: 0.5;
 		-webkit-box-shadow: 0px 12px 25.65px 1.35px rgba(180, 180, 180, 0.33);
 		        box-shadow: 0px 12px 25.65px 1.35px rgba(180, 180, 180, 0.33);
-		background-size: contain;
+		-webkit-background-size: contain;
+		        background-size: contain;
 	}
 	.club-slider__next img {
 		display: block;
@@ -4160,7 +4304,8 @@ button{
 		opacity: 0.5;
 		-webkit-box-shadow: 0px 12px 25.65px 1.35px rgba(180, 180, 180, 0.33);
 		        box-shadow: 0px 12px 25.65px 1.35px rgba(180, 180, 180, 0.33);
-		background-size: contain;
+		-webkit-background-size: contain;
+		        background-size: contain;
 	}
 	.club-slider__prev .club-slider__text,
 	.club-slider__prev .club-slider-num,
@@ -4192,7 +4337,8 @@ button{
 		opacity: 0.5;
 		-webkit-box-shadow: 0px 12px 25.65px 1.35px rgba(180, 180, 180, 0.33);
 		        box-shadow: 0px 12px 25.65px 1.35px rgba(180, 180, 180, 0.33);
-		background-size: contain;
+		-webkit-background-size: contain;
+		        background-size: contain;
 	}
 	.club-slider__next img {
 		display: block;
@@ -4207,7 +4353,8 @@ button{
 		opacity: 0.5;
 		-webkit-box-shadow: 0px 12px 25.65px 1.35px rgba(180, 180, 180, 0.33);
 		        box-shadow: 0px 12px 25.65px 1.35px rgba(180, 180, 180, 0.33);
-		background-size: contain;
+		-webkit-background-size: contain;
+		        background-size: contain;
 	}
 }
 
