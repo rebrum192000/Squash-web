@@ -1,5 +1,5 @@
-var uagent = navigator.userAgent.toLowerCase();
-       if (uagent.search("iphone") > -1) {
+var isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+if (isMobile) {
             var slideI = 1;
             showSlides2(slideI);
 
@@ -35,43 +35,6 @@ var uagent = navigator.userAgent.toLowerCase();
                 slidess[slideI - 1].style.display = "block";
             }
         }
-
-else if(screen.width < 767){
-    var slideI = 1;
-            showSlides2(slideI);
-
-            /* Функция увеличивает индекс на 1, показывает следующй слайд*/
-            function plusSlide2() {
-                showSlides2(slideI += 1);
-            }
-
-            /* Функция уменьшяет индекс на 1, показывает предыдущий слайд*/
-            function minusSlide2() {
-                showSlides2(slideI -= 1);  
-            }
-
-            /* Устанавливает текущий слайд */
-            function currentSlide2(m) {
-                showSlides2(slideI = m);
-            }
-
-            /* Основная функция слайдера */
-            function showSlides2(m) {
-                var j;
-                var slidess = document.getElementsByClassName("club-slider__item");
-                if (m > slidess.length) {
-                  slideI = 1
-                }
-                if (m < 1) {
-                    slideI = slidess.length
-                }
-                for (j = 0; j < slidess.length; j++) {
-                    slidess[j].style.display = "none";
-                }
-
-                slidess[slideI - 1].style.display = "block";
-            }
-}
 
 else if (screen.width > 767){
     /* Индекс слайда по умолчанию */
