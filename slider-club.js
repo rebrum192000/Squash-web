@@ -1,4 +1,4 @@
-if (document.body.clientWidth > 319) && (document.body.clientWidth < 768) {
+if (window.innerWidth < 768) {
 /* Индекс слайда по умолчанию */
 var slideI = 1;
 showSlides2(slideI);
