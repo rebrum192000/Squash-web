@@ -192,7 +192,7 @@ button{
 } 
 
 
-
+@media (min-width: 320px) {
 .page-header--nav {
 	display: -webkit-box;
 	display: -ms-flexbox;
@@ -243,6 +243,8 @@ button{
 .page-header--link-tel:active {
 	background-color: #e8e8e8;
 }
+}
+
 @media (min-width: 768px) {
 	.page-header--text {
 		width: 200px;
@@ -312,7 +314,7 @@ button{
 }
 
 
-
+@media (min-width: 320px) {
 .first {
 	background-image: url("img/1-first/bg-1-mob.png");
 	background-repeat: no-repeat;
@@ -450,6 +452,8 @@ button{
 	font-size: 16px;
 	line-height: 24px;
 }
+}
+
 @media (min-width: 768px) {
 	.first {
 		background-image: url("img/1-first/bg-1-tab.png");
@@ -577,7 +581,7 @@ button{
 }
 
 
-
+@media (min-width: 320px) {
 .plus {
 	padding-bottom: 16px;
 }
@@ -607,6 +611,7 @@ button{
 	padding: 0 7px;
 	padding-bottom: 58px;
 	color: #666666;
+}
 }
 @media (min-width: 768px) {
 	.plus--title {
@@ -684,7 +689,7 @@ button{
 	}
 }
 
-
+@media (min-width: 320px) {
 .what {
 	border-top: 12px solid #ffbf25;
 	border-bottom: 13px solid #ffbf25;
@@ -720,6 +725,7 @@ button{
 	font-size: 16px;
 	line-height: 24px;
 	padding-bottom: 24px;
+}
 }
 @media (min-width: 768px) {
 	.what {
@@ -779,7 +785,7 @@ button{
 }
 
 
-
+@media (min-width: 320px) {
 .quot{
 	background-image: url("img/clever-bg-desk.jpg");
 	background-position: center;
@@ -801,7 +807,7 @@ button{
 	background: url("img/clever-ap.png") no-repeat;
 	background-size: contain;
 }
-
+}
 @media (min-width: 768px) {
 	.quot--text{
 		display: block;
@@ -836,7 +842,7 @@ button{
 }
 
 
-
+@media (min-width: 320px) {
 .form1 .first-train__invite {
 	padding-top: 42px;
 }
@@ -854,6 +860,7 @@ button{
 	width: 100%;
 	height: 62px;
 	background: url(img/clever-clouds-white.png) repeat;
+}
 }
 @media (min-width: 768px) {
 	.form1 .first-train__invite {
@@ -882,7 +889,7 @@ button{
 }
 
 
-
+@media (min-width: 320px) {
 .stress {
 	position: relative;
 	background-image: url("img/6-stress/bg-6-mob.png");
@@ -962,6 +969,7 @@ button{
 	line-height: 20px;
 	padding-bottom: 96px;
 	color: #888888;
+}
 }
 @media (min-width: 325px) {
 	.stress--quot-wrap {
@@ -1095,7 +1103,7 @@ button{
 	}
 }
 
-
+@media (min-width: 320px) {
 .titanic {
 	position: relative;
 	background-color: #212121;
@@ -1143,6 +1151,7 @@ button{
 .titanic--inf-text {
 	font-size: 16px;
 	line-height: 24px;
+}
 }
 @media (min-width: 325px) {
 	.titanic--inf-wrap {
@@ -1231,7 +1240,7 @@ button{
 }
 
 
-
+@media (min-width: 320px) {
 .quot-Y {
 	background-color: #ffb225;
 	background-image: url("img/cite-bg-desk.png");
@@ -1251,6 +1260,7 @@ button{
 	font-size: 20px;
 	line-height: 30px;
 	padding: 0 4px 75px 0;
+}
 }
 @media (min-width: 768px) {
 	.quot-Y--desc {
@@ -1280,7 +1290,7 @@ button{
 }
 
 
-
+@media (min-width: 320px) {
 .forbes {
 	background-image: url("img/9-forbes/bg-9-mob.png");
 	background-repeat: no-repeat;
@@ -1369,6 +1379,7 @@ button{
 	background-image: -webkit-linear-gradient( bottom, rgb(224,155,28) 0%, rgb(255,191,37) 100%);
 	background-image: -o-linear-gradient( bottom, rgb(224,155,28) 0%, rgb(255,191,37) 100%);
 	background-image: linear-gradient( to top, rgb(224,155,28) 0%, rgb(255,191,37) 100%);
+}
 }
 @media (min-width: 768px) {
 	.forbes--container {
@@ -1478,7 +1489,7 @@ button{
 }
 
 
-
+@media (min-width: 320px) {
 .play {
 	background-image: url("img/10-play/bg-10-mob.png");
 	background-repeat: no-repeat;
@@ -1526,6 +1537,7 @@ button{
 	background-image: url("img/1-first/rockets-mob.png");
 	background-position: center;
 	background-repeat: no-repeat;
+}
 }
 @media (min-width: 768px) {
 	.play {
@@ -1604,7 +1616,7 @@ button{
 }
 
 
-
+@media (min-width: 320px) {
 .working{
 	background-image: url("img/11-working/working-bg-mob.png");
 	position: relative;
@@ -1685,7 +1697,7 @@ button{
 	background: url("img/list-form-bg.png");
 	background-size: contain;
 }
-
+}
 
 @media (min-width: 768px){
 	.working{
@@ -1817,7 +1829,7 @@ button{
 
 
 
-
+@media (min-width: 320px) {
 .golf{
 	background-image: url("img/cite-bg-desk.png");
 }
@@ -1838,6 +1850,7 @@ button{
 	padding-left: 10px;
 
 }
+}
 
 @media (min-width: 1360px) {
 
@@ -1857,7 +1870,7 @@ button{
 }
 }
 
-
+@media (min-width: 320px) {
 .links{
 	background: url("img/13-links/links-man-bg.jpg") no-repeat 48% 0;
 	background-size: auto 100%;
@@ -1914,7 +1927,7 @@ button{
 	padding-left: 20px;
 	color: #fff;
 }
-
+}
 @media (min-width: 325px) {
 	.links__invite {
 		border-right: 1px solid #ffb225;
@@ -1992,7 +2005,7 @@ button{
 
 
 
-
+@media (min-width: 320px) {
 .figure{
 	background: url("img/clever-bg-desk.jpg");
 }
@@ -2014,7 +2027,7 @@ button{
 	background: url("img/clever-ap.png") no-repeat;
 	background-size: contain;
 }
-
+}
 
 @media (min-width: 768px) {
 	.figure__text{
@@ -2065,7 +2078,7 @@ button{
 }
 
 
-
+@media (min-width: 320px) {
 .woman{
 	position: relative;
 	border-top: 13px solid #ffc000;
@@ -2093,7 +2106,7 @@ button{
 	font-family: "Gotham Pro Light";
 	padding-bottom: 29px;
 }
-
+}
 @media (min-width: 768px) {
 	.woman{
 		position: relative;
@@ -2166,7 +2179,7 @@ button{
 }
 
 
-
+@media (min-width: 320px) {
 	.club-slider{
 		background: url("img/clever-bg-desk.jpg");
 		padding-bottom: 515px;
@@ -2318,7 +2331,7 @@ button{
 		0% {-webkit-transform:scale(0.7);transform:scale(0.7)}
 		100% {-webkit-transform:scale(1);transform:scale(1)}
 	}
-
+}
 @media (min-width: 768px) {
 	.club-slider{
 		padding-bottom: 550px;
@@ -2496,7 +2509,7 @@ button{
 
 
 
-/* @media (min-width: 320px) { */
+@media (min-width: 320px) {
 
 	.feedback{
 		background: url("img/clever-bg-desk.jpg");
@@ -2648,7 +2661,7 @@ button{
 	.active{
 		display: block;
 	}
-/* } */
+}
 
 
 @media (min-width: 768px) {
@@ -2869,7 +2882,7 @@ button{
 }
 
 
-
+@media (min-width: 320px) {
 .first-train__info{
 	background-image: 
 	-webkit-gradient(linear, left top, left bottom, from(#f2f2f2), color-stop(30%, #fff));
@@ -2975,7 +2988,7 @@ button{
 	background: url("img/item2-form-bg.png") no-repeat;
 	background-size: contain;
 }
-
+}
 
 
 @media (min-width: 768px) {
@@ -3250,7 +3263,7 @@ button{
 
 
 
-
+@media (min-width: 320px) {
 .first-train__form-bg{
 	background: url("img/form-bg.jpg");
 	background-size: cover;
@@ -3381,7 +3394,7 @@ button{
 	height: 51px;
 	background: url("img/line-form-bg.png") no-repeat;
 }
-
+}
 
 
 @media (min-width: 768px) {
@@ -3682,7 +3695,7 @@ button{
 	}
 }
 
-
+@media (min-width: 320px) {
 .fit{
 	background: url("img/clever-bg-desk.jpg") no-repeat;
 	padding-bottom: 55px;
@@ -3726,7 +3739,7 @@ button{
 .fit__clever-sub span{
 	display: none;
 }
-
+}
 
 @media (min-width: 768px) {
 	.fit::before{
@@ -3797,7 +3810,7 @@ button{
 
 
 
-
+@media (min-width: 320px) {
 .allcorts{
 	text-align: center;
 	background: url("img/cite-bg-desk.png") repeat;
@@ -3823,7 +3836,7 @@ button{
 	line-height: 24px;
 	font-weight: 500;
 }
-
+}
 @media (min-width: 768px) {
 	.allcorts {
 		-webkit-box-shadow: none;
@@ -3848,7 +3861,7 @@ button{
 	}
 }
 
-
+@media (min-width: 320px) {
 .sect10__desk-info{
 	display: none;
 }
@@ -3883,7 +3896,7 @@ button{
 	margin: 0 auto;
 	margin-bottom: 45px;
 }
-
+}
 
 @media (min-width: 768px) {
 	.sect10__desk-info{
@@ -3982,7 +3995,7 @@ button{
 
 
 
-
+@media (min-width: 320px) {
 .page-footer{
 	border-top: 1px solid #cdcdcd;
 	padding-top: 30px;
@@ -4024,7 +4037,7 @@ button{
 .page-footer__copy{
 	display: none;
 }
-
+}
 
 @media (min-width: 768px) {
 	.page-footer__wrapper{
@@ -4064,6 +4077,7 @@ button{
 /*Модальная
 -------------------------------------------------
 форма*/
+@media (min-width: 320px) {
 .modal {
 	display: none;
 	position: fixed;
@@ -4107,6 +4121,7 @@ button{
 	width: 100%;
 	background: rgba(0, 0, 0, 0.9);
 	z-index: 90;
+}
 }
 @media (min-width: 320px) {
 	.club-slider__prev .club-slider__text,
@@ -4199,7 +4214,7 @@ button{
 /* #youtube{
 	display: none;
 } */
-
+@media (min-width: 320px) {
 .youtube {
 	display: none;
 	position: fixed;
@@ -4235,7 +4250,7 @@ button{
 	width: 300px;
 	height: 200px;
 }
-
+}
 @media (min-width: 768px) {
 	.youtube iframe {
 		width: 700px;
