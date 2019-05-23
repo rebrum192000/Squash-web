@@ -2500,158 +2500,157 @@ button{
 
 
 @media (min-width: 320px) {
-.feedback__item-pair{
-}
-.feedback{
-	background: url("img/clever-bg-desk.jpg");
-}
-.feedback__nobg{
-	position: relative;
-	padding-top: 64px;
-}
-.feedback__descr{
-	font-size: 24px;
-	line-height: 32px;
-	padding: 0 20px;
-	text-align: center;
-	margin-bottom: 265px;
-}
-.feedback-arrow1{
-	padding: 0;
-	color: #fff;
-	font-size: 30px;
-	position: absolute;
-	top: 240px;
-	left: 12px;
-	background-image: 
-	-webkit-gradient( linear, left top, right top, from(rgb(246,156,0)), to(rgb(255,192,0)));
-	background-image: 
-	-webkit-linear-gradient( left, rgb(246,156,0) 0%, rgb(255,192,0) 100%);
-	background-image: 
-	-o-linear-gradient( left, rgb(246,156,0) 0%, rgb(255,192,0) 100%);
-	background-image: 
-	linear-gradient( 90deg, rgb(246,156,0) 0%, rgb(255,192,0) 100%);
-	border: none;
-	-webkit-box-sizing: border-box;
-	        box-sizing: border-box;
-	border-radius: 50%;
-	width: 51px;
-	height: 51px;
-	-webkit-box-shadow: 0px 6px 12.22px 0.78px rgba(202, 202, 202, 0.42);
-	        box-shadow: 0px 6px 12.22px 0.78px rgba(202, 202, 202, 0.42);
-}
-.feedback-arrow2{
-	padding: 0;
-	color: #fff;
-	font-size: 30px;
-	position: absolute;
-	top: 240px;
-	right: 15px;
-	background-image: 
-	-webkit-gradient( linear, left top, right top, from(rgb(246,156,0)), to(rgb(255,192,0)));
-	background-image: 
-	-webkit-linear-gradient( left, rgb(246,156,0) 0%, rgb(255,192,0) 100%);
-	background-image: 
-	-o-linear-gradient( left, rgb(246,156,0) 0%, rgb(255,192,0) 100%);
-	background-image: 
-	linear-gradient( 90deg, rgb(246,156,0) 0%, rgb(255,192,0) 100%);
-	border: none;
-	-webkit-box-sizing: border-box;
-	        box-sizing: border-box;
-	border-radius: 50%;
-	width: 51px;
-	height: 51px;
-	-webkit-box-shadow: 0px 6px 12.22px 0.78px rgba(202, 202, 202, 0.42);
-	        box-shadow: 0px 6px 12.22px 0.78px rgba(202, 202, 202, 0.42);
-}
 
-.feedback__item{
-	position: relative;
-	-webkit-animation: feed-slider 0.75s;
-	        animation: feed-slider 0.75s;
-}
+	.feedback{
+		background: url("img/clever-bg-desk.jpg");
+	}
+	.feedback__nobg{
+		position: relative;
+		padding-top: 64px;
+	}
+	.feedback__descr{
+		font-size: 24px;
+		line-height: 32px;
+		padding: 0 20px;
+		text-align: center;
+		margin-bottom: 265px;
+	}
+	.feedback-arrow1{
+		padding: 0;
+		color: #fff;
+		font-size: 30px;
+		position: absolute;
+		top: 240px;
+		left: 12px;
+		background-image: 
+		-webkit-gradient( linear, left top, right top, from(rgb(246,156,0)), to(rgb(255,192,0)));
+		background-image: 
+		-webkit-linear-gradient( left, rgb(246,156,0) 0%, rgb(255,192,0) 100%);
+		background-image: 
+		-o-linear-gradient( left, rgb(246,156,0) 0%, rgb(255,192,0) 100%);
+		background-image: 
+		linear-gradient( 90deg, rgb(246,156,0) 0%, rgb(255,192,0) 100%);
+		border: none;
+		-webkit-box-sizing: border-box;
+		        box-sizing: border-box;
+		border-radius: 50%;
+		width: 51px;
+		height: 51px;
+		-webkit-box-shadow: 0px 6px 12.22px 0.78px rgba(202, 202, 202, 0.42);
+		        box-shadow: 0px 6px 12.22px 0.78px rgba(202, 202, 202, 0.42);
+	}
+	.feedback-arrow2{
+		padding: 0;
+		color: #fff;
+		font-size: 30px;
+		position: absolute;
+		top: 240px;
+		right: 15px;
+		background-image: 
+		-webkit-gradient( linear, left top, right top, from(rgb(246,156,0)), to(rgb(255,192,0)));
+		background-image: 
+		-webkit-linear-gradient( left, rgb(246,156,0) 0%, rgb(255,192,0) 100%);
+		background-image: 
+		-o-linear-gradient( left, rgb(246,156,0) 0%, rgb(255,192,0) 100%);
+		background-image: 
+		linear-gradient( 90deg, rgb(246,156,0) 0%, rgb(255,192,0) 100%);
+		border: none;
+		-webkit-box-sizing: border-box;
+		        box-sizing: border-box;
+		border-radius: 50%;
+		width: 51px;
+		height: 51px;
+		-webkit-box-shadow: 0px 6px 12.22px 0.78px rgba(202, 202, 202, 0.42);
+		        box-shadow: 0px 6px 12.22px 0.78px rgba(202, 202, 202, 0.42);
+	}
 
-@-webkit-keyframes feed-slider {
-	0% {-webkit-transform:scale(0.85);transform:scale(0.85)}
-	100% {-webkit-transform:scale(1);transform:scale(1)}
-}
+	.feedback__item{
+		position: relative;
+		-webkit-animation: feed-slider 0.75s;
+		        animation: feed-slider 0.75s;
+	}
 
-@keyframes feed-slider {
-	0% {-webkit-transform:scale(0.85);transform:scale(0.85)}
-	100% {-webkit-transform:scale(1);transform:scale(1)}
-}
+	@-webkit-keyframes feed-slider {
+		0% {-webkit-transform:scale(0.85);transform:scale(0.85)}
+		100% {-webkit-transform:scale(1);transform:scale(1)}
+	}
 
-.feedback__slider-num{
-	font-size: 24px;
-	position: absolute;	
-	top: -201px;
-	left: 50%;
-	-webkit-transform: translate(-50%,0);
-	    -ms-transform: translate(-50%,0);
-	        transform: translate(-50%,0);
-}
-.feedback__item-image{
-	position: absolute;
-	top: -146px;
-	left: 53%;
-	-webkit-transform: translate(-50%,0);
-	    -ms-transform: translate(-50%,0);
-	        transform: translate(-50%,0);
-}
-.feedback__name{
-	text-align: center;
-	font-size: 24px;
-	line-height: 30px;
-	font-family: "Gotham Pro Medium";
-}
-.feedback__title{
-	text-align: center;
-	color: #666666;
-	font-size: 16px;
-	line-height: 30px;
-	margin-bottom: 27px;
-}
-.feedback__text{
-	-webkit-box-sizing: border-box;
-	        box-sizing: border-box;
-	padding-left: 15px;
-	padding-right: 20px;
-	background-color: #fff;
-	border: 1px solid #cdcdcd;  
-	border-radius: 5px;
-	-webkit-box-shadow: 0px 12px 25.65px 1.35px rgba(181, 181, 181, 0.2);
-	        box-shadow: 0px 12px 25.65px 1.35px rgba(181, 181, 181, 0.2);
-}
+	@keyframes feed-slider {
+		0% {-webkit-transform:scale(0.85);transform:scale(0.85)}
+		100% {-webkit-transform:scale(1);transform:scale(1)}
+	}
 
-.feedback__text-lead{
-	padding-top: 11px;
-	font-size: 20px;
-	line-height: 30px;
-	margin-bottom: 27px;
-}
-.feedback__text-sub{
-	font-size: 16px;
-	line-height: 24px;
-	font-family: "Gotham Pro Light";
-	margin-bottom: 25px;
-}
+	.feedback__slider-num{
+		font-size: 24px;
+		position: absolute;	
+		top: -201px;
+		left: 50%;
+		-webkit-transform: translate(-50%,0);
+		    -ms-transform: translate(-50%,0);
+		        transform: translate(-50%,0);
+	}
+	.feedback__item-image{
+		position: absolute;
+		top: -146px;
+		left: 53%;
+		-webkit-transform: translate(-50%,0);
+		    -ms-transform: translate(-50%,0);
+		        transform: translate(-50%,0);
+	}
+	.feedback__name{
+		text-align: center;
+		font-size: 24px;
+		line-height: 30px;
+		font-family: "Gotham Pro Medium";
+	}
+	.feedback__title{
+		text-align: center;
+		color: #666666;
+		font-size: 16px;
+		line-height: 30px;
+		margin-bottom: 27px;
+	}
+	.feedback__text{
+		-webkit-box-sizing: border-box;
+		        box-sizing: border-box;
+		padding-left: 15px;
+		padding-right: 20px;
+		background-color: #fff;
+		border: 1px solid #cdcdcd;  
+		border-radius: 5px;
+		-webkit-box-shadow: 0px 12px 25.65px 1.35px rgba(181, 181, 181, 0.2);
+		        box-shadow: 0px 12px 25.65px 1.35px rgba(181, 181, 181, 0.2);
+	}
 
-.feedback__text-button{
-	margin-bottom: 40px;
-	font-size: 10px;
-	line-height: 20px;
-	padding: 3px 9px;
-}
-.feedback__text-button span{
-	padding-left: 20px;
-}
-.feedback__buttons{
-	display: none;
-}
+	.feedback__text-lead{
+		padding-top: 11px;
+		font-size: 20px;
+		line-height: 30px;
+		margin-bottom: 27px;
+	}
+	.feedback__text-sub{
+		font-size: 16px;
+		line-height: 24px;
+		font-family: "Gotham Pro Light";
+		margin-bottom: 25px;
+	}
 
-.active{
-	display: block;
-}
+	.feedback__text-button{
+		margin-bottom: 40px;
+		font-size: 10px;
+		line-height: 20px;
+		padding: 3px 9px;
+	}
+	.feedback__text-button span{
+		padding-left: 20px;
+	}
+	.feedback__buttons{
+		display: none;
+	}
+
+	.active{
+		display: block;
+	}
 }
 
 
