@@ -2222,6 +2222,7 @@ button{
 
 }
 .club-slider-arrow1{
+	padding: 0;
 	color: #fff;
 	font-size: 30px;
 	position: absolute;
@@ -2246,6 +2247,7 @@ button{
 	        box-shadow: 0px 6px 12.22px 0.78px rgba(202, 202, 202, 0.42);
 }
 .club-slider-arrow2{
+	padding: 0;
 	color: #fff;
 	font-size: 30px;
 	position: absolute;
@@ -2515,6 +2517,7 @@ button{
 	margin-bottom: 265px;
 }
 .feedback-arrow1{
+	padding: 0;
 	color: #fff;
 	font-size: 30px;
 	position: absolute;
@@ -2538,6 +2541,7 @@ button{
 	        box-shadow: 0px 6px 12.22px 0.78px rgba(202, 202, 202, 0.42);
 }
 .feedback-arrow2{
+	padding: 0;
 	color: #fff;
 	font-size: 30px;
 	position: absolute;
