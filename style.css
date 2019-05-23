@@ -2497,6 +2497,7 @@ button{
 
 
 
+@media (min-width: 320px) {
 .feedback__item-pair{
 }
 .feedback{
@@ -2647,7 +2648,7 @@ button{
 .active{
 	display: block;
 }
-
+}
 
 
 @media (min-width: 768px) {
