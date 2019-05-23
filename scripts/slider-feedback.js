@@ -1,6 +1,6 @@
 var scrW = document.body.clientWidth;
 
-if (scrW < 768) {
+if (scrW < 1359) {
 /* Индекс слайда по умолчанию */
 var slideIndex = 1;
 showSlides(slideIndex);
