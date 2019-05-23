@@ -1,6 +1,4 @@
-var widthScreen = screen.width;
-
-if (widthScreen < 1359) {
+if (screen.availWidth < 1359) {
 /* Индекс слайда по умолчанию */
 var slideI = 1;
 showSlides2(slideI);
