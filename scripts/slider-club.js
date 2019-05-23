@@ -1,5 +1,4 @@
-function DetectIphone() {
-       var uagent = navigator.userAgent.toLowerCase();
+var uagent = navigator.userAgent.toLowerCase();
        if (uagent.search("iphone") > -1) {
             var slideI = 1;
             showSlides2(slideI);
@@ -36,8 +35,7 @@ function DetectIphone() {
                 slidess[slideI - 1].style.display = "block";
             }
         }
-    }
-    
+
 else if(screen.width < 767){
     var slideI = 1;
             showSlides2(slideI);
