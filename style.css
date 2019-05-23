@@ -4107,7 +4107,14 @@ button{
 	background: rgba(0, 0, 0, 0.9);
 	z-index: 90;
 }
-
+@media (min-width: 320px) {
+	.club-slider__prev .club-slider__text,
+	.club-slider__prev .club-slider-num,
+	.club-slider__next .club-slider__text,
+	.club-slider__next .club-slider-num {
+		display: none;
+	}
+}
 @media (min-width: 768px) {
 	.club-slider__prev img {
 		display: block;
