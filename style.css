@@ -2168,7 +2168,7 @@ button{
 
 
 
-@media (min-width: 320px) {
+/* @media (min-width: 320px) { */
 .club-slider{
 	background: url("img/clever-bg-desk.jpg");
 	padding-bottom: 515px;
@@ -2320,7 +2320,7 @@ button{
 	0% {-webkit-transform:scale(0.7);transform:scale(0.7)}
 	100% {-webkit-transform:scale(1);transform:scale(1)}
 }
-}
+/* } */
 
 @media (min-width: 768px) {
 	.club-slider{
@@ -2499,7 +2499,7 @@ button{
 
 
 
-@media (min-width: 320px) {
+/* @media (min-width: 320px) { */
 
 	.feedback{
 		background: url("img/clever-bg-desk.jpg");
@@ -2651,7 +2651,7 @@ button{
 	.active{
 		display: block;
 	}
-}
+/* } */
 
 
 @media (min-width: 768px) {
