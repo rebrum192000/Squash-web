@@ -1,4 +1,4 @@
-if (screen.width < '768'){
+if (innerWidth < '768'){
     var slideI = 1;
     showSlides2(slideI);
 
