@@ -15,4 +15,4 @@
 
 Ниже представляю превью моего сайта для быстрого просмотра:
 
-<a href="https://ibb.co/y8jqGCQ"><img src="https://i.ibb.co/gDKJH8R/Fire-Shot-Capture-023-Gorky-Squash-rebrum192000-github-io.png" alt="Fire-Shot-Capture-023-Gorky-Squash-rebrum192000-github-io" border="0"></a>
+<a href="https://ibb.co/JpdKpSp"><img src="https://i.ibb.co/94vN4d4/Fire-Shot-Capture-025-Gorky-Squash-rebrum192000-github-io.png" alt="Fire-Shot-Capture-025-Gorky-Squash-rebrum192000-github-io" border="0"></a>
