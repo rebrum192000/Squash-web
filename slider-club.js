@@ -1,4 +1,4 @@
-if (screen.width > 319) && (screen.width < 768) {
+if (display.width > 319) && (display.width < 768) {
 /* Индекс слайда по умолчанию */
 var slideI = 1;
 showSlides2(slideI);
@@ -34,7 +34,7 @@ function showSlides2(m) {
 
     slidess[slideI - 1].style.display = "block";
 };
-}   else {
+} else {
     /* Индекс слайда по умолчанию */
     var slideI = 1;
     showSlides2(slideI);
