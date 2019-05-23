@@ -36,7 +36,7 @@ function showSlides2(m) {
 
     slidess[slideI - 1].style.display = "block";
 }
-} else {
+} else if (widthScreen >= 768) {
     /* Индекс слайда по умолчанию */
     var slideI = 1;
     showSlides2(slideI);
